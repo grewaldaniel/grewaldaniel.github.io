@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+footer{
+
+    text-align: center;
+    vertical-align:center;
+    background-color:#feda6a;
+    font-size:30px;
+    border-color:white;
+    color:white;
+    border-style:solid;
+
+
+}
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+    line-height: 37px;
+}
+body,html{
+    height:100%;
+    background-color: #d4d4dc;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:20px;
+    
+}
+nav{
+    display:flex;
+    height:45px;
+    padding-top: 20px;
+    
+}
+/*Die einzelnen Abschnitte in der Menüleiste*/
+nav a{
+    flex:1;
+    font-weight:bold;
+    font-size:18px;
+    border-width:1px;
+    border-color:white;
+    border-style:solid;
+    border-right:0px;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+    color:white;
+    background-color:#1dbab4;
+}
+nav a:last-child{
+    border-right:1px;
+    border-style:solid;
+    border-color:white;
+}
+nav a:hover{
+    font-size:25px;
+    font-weight:bold;
+    background-color:#000000;
+    transition: font-size 0.5s;
+}
+
+@media(max-width: 700px){
+    nav{
+        display:block;
+        height:auto;
+    }
+    nav a{
+        height:50px;
+    }
+}
+
+
+/*header und footer haben das selbe Design*/
+header{
+    margin-top:30px;
+    text-align: center;
+    font-size:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-width:1px;
+    color:#feda6a;
+    font-weight:bolder;
+}
+.header {
+	
+    padding: 10px;
+    text-align: center;
+    background: #fc5226;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    padding-left: 20px;
+    background: #feda6a;
+}
+.fa-instagram {
+    background: #feda6a;
+    color: white;
+    padding-left: 20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+
+.fa-google {
+    background: #feda6a;
+    color: white;
+    padding-left: 20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.fa-twitter {
+    background: #feda6a;
+    color: white;
+    padding-left: 20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
