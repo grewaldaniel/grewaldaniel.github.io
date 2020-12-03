@@ -1,0 +1,32 @@
+
+#Einreise img{
+	float:left;
+    padding-right:20px;
+    width:50%;
+    height:50%;
+    padding-bottom:20px;
+}
+.video{
+	padding-bottom: 20px;
+	padding-top:10px;
+	text-align: center;
+	
+}
+@media(max-width: 700px){
+ #Einreise img {
+     max-width:100%;
+     height:300px;
+     text-align: center;
+     padding-right: 0px;
+     width:auto;
+     float:none;
+     font-size:20px;
+     padding-top:20px;
+     padding-right:20px;
+ }
+
+    .video{
+    	  max-width:100%;
+    }
+
+}
