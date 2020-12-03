@@ -1,0 +1,135 @@
+.Amritsaar img{
+	
+	width:50%;
+    height:20%;
+    padding-top:40px;
+    padding-right:20px;
+    padding-bottom: 20px;
+}
+.Amritsaar p{
+    width:50%;
+}
+.attraktion{
+    width:48%;
+    float:left;
+    padding-left:10px;
+    padding-top:30px;
+}
+.attraktion img{
+    width:450px;
+    height:300px;
+}
+
+.Udaipur img{
+	width:50%;
+    height:20%;
+    padding-top:40px;
+    padding-right:20px;
+    padding-bottom: 20px;
+}
+.Udaipur p{
+	width:50%;
+}
+.Taj-Mahal img{
+	width:50%;
+    height:20%;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom: 20px;
+}
+.Taj-Mahal p{
+	width:50%;
+}
+.Jaisalmer img{
+	width:50%;
+    height:20%;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom: 20px;
+}
+.Jaisalmer p{
+	width:50%;
+}
+
+.delhi img{
+
+	width:50%;
+    height:20%;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom: 20px;
+}
+   .delhi p{
+	        width:50%;
+}
+.nationalpark img{
+	
+	width:50%;
+    height:20%;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom: 20px;
+}
+   .nationalpark p{
+	              width:50%;
+}
+.ganges img{
+	
+	width:50%;
+    height:20%;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom: 20px;
+}
+
+
+   .ganges p{
+	         width:50%;
+}
+.kerala img{
+	
+	width:50%;
+    height:20%;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom: 20px;
+	
+}
+
+
+   .kerala p{
+	         width:50%;
+}
+
+.goa img{
+	
+	width:50%;
+    height:20%;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom: 20px;
+	
+	
+}
+
+   .goa p{
+	     width:50% 
+	      
+}
+p{
+	font-size:larger;
+}
+@media(max-width: 1200px){
+    .attraktionen{
+        float:none;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    .attraktion,.attraktion p,.attraktion img{
+        width:80%;
+    }
+    .attraktion img{
+        height:40%;
+    }
+}
