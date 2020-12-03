@@ -1,0 +1,21 @@
+.all{
+	display:flex;
+	padding-bottom: 20px;
+	
+    
+}
+ .gif{
+       margin-right:20px;
+       width:30%;
+       
+
+}
+@media(max-width: 1500px){
+	.all{
+		display:block;
+	}
+	.gif {
+		text-align:center;
+		width:500px;
+	}
+}
